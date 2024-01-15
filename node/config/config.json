@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "saira117921",
+    "database": "movies",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "saira117921",
+    "database": "movies",
+    "host": "root",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "saira117921",
+    "database": "movies",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
