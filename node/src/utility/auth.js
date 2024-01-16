@@ -26,8 +26,8 @@ const auth = async (req, res, next) => {
     }
 
     req.user = {
-      user: userData,
-      // isAdmin: userData.isAdmin || false,
+     user: userData,
+     isAdmin: userData.isAdmin || false,
     };
 
     if (req.params.id && req.params.id !== userData.id.toString()) {
